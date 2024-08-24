@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Forms</title>
+  </head>
+  <body>
+    <h1>Feedback Form</h1>
+    <p>Please fill out this form to help us improve our site.</p>
+    <form method="post" action="http://www.deitel.com">
+      <input type="hidden" name="rec" value="deitel@deitel.com" />
+      <input type="hidden" name="sub" value="Feedback Form" />
+      <input type="hidden" name="red" value="main.html" />
+      <p>
+        <label>Name : <input name="name" type="text" maxlength="30" /></label>
+      </p>
+      <p>
+        <input type="submit" value="Submit" />
+        <input type="reset" value="Clear" />
+      </p>
+    </form>
+  </body>
+</html>
